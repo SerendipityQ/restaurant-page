@@ -1,0 +1,189 @@
+body{
+    background-color:white;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+header{
+    padding-bottom: 1rem;
+}
+.restaurant-name{
+    /*font-family: 'Gloria Hallelujah', cursive;*/
+    margin-top:.5em;
+    margin-bottom: 0;
+    padding-bottom: none;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 9vh;
+}
+nav{
+    padding-top:0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+
+}
+
+button{
+    margin-left: 2rem;
+    margin-right: 1.2rem;
+    text-transform: uppercase;
+    padding: .50em;
+    border:none;
+    background:none;
+    font-family: 'Raleway',sans-serif;
+    font-weight: bold;
+    font-size: .9rem;
+
+}
+
+button:hover{
+    cursor: pointer;
+    border:1px solid black;
+    padding: .43em;
+    border-radius: 10px;
+}
+
+button:focus{
+    border:1px solid black;
+    padding: .43em;
+    border-radius: 10px;
+    background-color:black;
+    color:white;
+}
+
+section{
+    background-position: 30% 30%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:73vh;
+    width:100%;
+    animation:animate 20s ease infinite;
+}
+
+@keyframes animate{
+    0%,100%{
+       background-image: url(images/background-image.jpg); 
+
+    }
+     
+     40%{
+        background-image: url(images/home-sweets2.jpg); 
+
+     }
+     80%{
+        background-image: url(images/home-sweets3.jpg); 
+
+     }
+}
+
+
+/*MENU */
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:white;
+    height: 73vh;
+    width:100%;
+}
+
+.first-row{
+    margin-left: 5em;
+}
+
+.second-row{
+    margin-left: 5em;
+}
+
+.sweet-image{
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 5em;
+    margin-right:0;
+    margin-left:0;
+    
+    background-repeat: no-repeat;
+}
+
+.menu-title,.description{
+    align-items: left;
+    font-family: 'Raleway',cursive;
+    margin-right: 5rem;
+    font-weight: bold;
+}
+.menu-title{
+    font-weight: bold;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.4em;
+    margin-top:4rem;
+    text-align: left;
+}
+
+.description{
+    color:gray;
+    text-align: left;
+    margin:0;
+}
+
+@media screen and (min-width: 600px) {
+
+    .second-row{
+        margin-right: 6em;
+        margin-left:0;
+
+    }
+
+    .description{
+        margin-bottom:.3em;
+    }
+
+    .sweet-image{
+        height:45vh;
+        width:auto;
+
+    }
+    .first-row{
+        margin-left: 7em;
+    }
+}
+
+
+
+/*CONTACT 
+PAGE
+*/
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:3em;
+}
+
+.info-div{
+    font-family: Raleway;
+    margin-right: 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.info-div h3{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:0;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 600px) {
+    .info-div h3{
+        margin-top:2rem;
+    }
+
+    .info-div{
+        margin-right: 4em;
+        margin-top:1.2rem;
+    }
+}

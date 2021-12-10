@@ -1,0 +1,23 @@
+{
+  "name": "restaurantmenu",
+  "version": "1.0.0",
+  "description": "a restaurant page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-shell-plugin-next": "^2.2.2"
+  },
+  "dependencies": {
+    "style-loader": "^3.3.1"
+  },
+  "keywords": []
+}
